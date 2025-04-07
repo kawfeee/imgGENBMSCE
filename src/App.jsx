@@ -29,7 +29,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className={`app ${theme}`}>
         <header className="app-header">
-          <h1>Mentora AI Image Generator</h1>
+          <h1>Vision AI Image Generator</h1>
           <button 
             className="theme-toggle" 
             onClick={toggleTheme}
